@@ -3,7 +3,6 @@ import java.util.Vector;
 public class EightPuzzleSpace {
     Node getRoot() {
         int example[] = {1, 5, 3, 4, 6, 8, 2, 7, 0};
-        // Contoh dari Russell dan Norvig
         return new Node(example, null);
     }
 
